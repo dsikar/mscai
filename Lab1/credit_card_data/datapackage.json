@@ -1,0 +1,664 @@
+{
+  "bytes": 524123495,
+  "datahub": {
+    "created": "2018-08-21T21:19:13.358216",
+    "findability": "published",
+    "flowid": "machine-learning/creditcard/1",
+    "modified": "2018-08-21T21:19:13.358216",
+    "owner": "machine-learning",
+    "ownerid": "machine-learning"
+  },
+  "description": "The resources for this dataset can be found at https://www.openml.org/d/1597\n\nAuthor: Andrea Dal Poz",
+  "hash": "4bdb88ff0caf170fa325249b653eb7b9",
+  "id": "machine-learning/creditcard",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ],
+  "name": "creditcard",
+  "resources": [
+    {
+      "bytes": 150828690,
+      "datahub": {
+        "type": "original"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/c4192d47fe390580a780085dea5faa81.csv",
+      "encoding": "ISO-8859-2",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "creditcard_original",
+      "path": "archive/creditcard.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Time",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V1",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V2",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V3",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V4",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V5",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V6",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V7",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V8",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V9",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V10",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V11",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V12",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V13",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V14",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V15",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V16",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V17",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V18",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V19",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V20",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V21",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V22",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V23",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V24",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V25",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V26",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V27",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V28",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Amount",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 5972,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmp9cpa74j5/machine-learning/creditcard/validation_report/data/fce3c207f6141efa52324f41e9d48d77/validation_report.json",
+      "format": "json",
+      "hash": "fce3c207f6141efa52324f41e9d48d77",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 151114991,
+      "datahub": {
+        "derivedFrom": [
+          "creditcard"
+        ],
+        "type": "derived/csv"
+      },
+      "delimiter": ",",
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmp9cpa74j5/machine-learning/creditcard/creditcard_csv/data/ebdc64b6837b3026238f3fcad3402337/creditcard_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "ebdc64b6837b3026238f3fcad3402337",
+      "mediatype": "text/csv",
+      "name": "creditcard_csv",
+      "path": "data/creditcard_csv.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "quotechar": "\"",
+      "rowcount": 284807,
+      "schema": {
+        "fields": [
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Time",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V1",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V2",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V3",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V4",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V5",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V6",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V7",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V8",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V9",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V10",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V11",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V12",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V13",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V14",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V15",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V16",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V17",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V18",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V19",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V20",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V21",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V22",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V23",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V24",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V25",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V26",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V27",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "V28",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Amount",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 222172013,
+      "datahub": {
+        "derivedFrom": [
+          "creditcard"
+        ],
+        "type": "derived/json"
+      },
+      "delimiter": ",",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "dpp:streamedFrom": "/tmp/tmp9cpa74j5/machine-learning/creditcard/creditcard_json/data/9189a84974b5439b73619038cd6a660e/creditcard_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "9189a84974b5439b73619038cd6a660e",
+      "mediatype": "text/csv",
+      "name": "creditcard_json",
+      "path": "data/creditcard_json.json",
+      "pathType": "local",
+      "profile": "data-resource",
+      "quotechar": "\"",
+      "rowcount": 284807,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Time",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V1",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V2",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V3",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V4",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V5",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V6",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V7",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V8",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V9",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V10",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V11",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V12",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V13",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V14",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V15",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V16",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V17",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V18",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V19",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V20",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V21",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V22",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V23",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V24",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V25",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V26",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V27",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "V28",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Amount",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Class",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 1829,
+      "dpp:streamedFrom": "/tmp/tmphmz68t0p/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "title": "Creditcard"
+}
