@@ -4,17 +4,17 @@ City University of London MSc Artificial Intellingence High Performance Computin
 
 ## Connecting to the Hyperion cluster
 
-* [Connect with Windows OS from inside City network - login required] (https://cityuni.service-now.com/sp?sys_kb_id=a8d1608c1b214950f82d9828b04bcb8a&id=kb_article_view&sysparm_rank=1&sysparm_tsqueryId=0b2561a61b5e41104e86b886d34bcbe8)
+* [Connect with Windows OS from inside City network - login required](https://cityuni.service-now.com/sp?sys_kb_id=a8d1608c1b214950f82d9828b04bcb8a&id=kb_article_view&sysparm_rank=1&sysparm_tsqueryId=0b2561a61b5e41104e86b886d34bcbe8)
 
 * Connect with from outside network
-1. [Setup Pulse VPN - login required] (https://cityuni.service-now.com/sp?id=kb_article_view&sys_kb_id=e13aac9edba784d0fa2415784b9619e8)
+1. [Setup Pulse VPN - login required](https://cityuni.service-now.com/sp?id=kb_article_view&sys_kb_id=e13aac9edba784d0fa2415784b9619e8)
 2. Open terminals (putty on Windows OS) like connecting from inside City network
 NB Pulse VPN can be setup on Linux, then two terminal connections are required, as per inside the network.
 
 
 ## Running jobs
 
-See Chris Marshall's [guides] (https://cityuni.service-now.com/sp?id=kb_article_view&sysparm_article=KB0012621&sys_kb_id=7bf82adc1b210d50f82d9828b04bcb9b&spa=1)
+See Chris Marshall's [guides](https://cityuni.service-now.com/sp?id=kb_article_view&sysparm_article=KB0012621&sys_kb_id=7bf82adc1b210d50f82d9828b04bcb9b&spa=1)
 
 Examples:
 ```
